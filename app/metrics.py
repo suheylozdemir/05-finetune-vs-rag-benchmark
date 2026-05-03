@@ -4,7 +4,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
-client = OpenAI()
+
 
 def measure_latency(func, *args, **kwargs):
     start = time.time()
@@ -24,6 +24,7 @@ def calculate_cost(prompt_tokens: int, completion_tokens: int, model: str) -> fl
     return round(cost, 6)
 
 def evaluate_accuracy(question: str, predicted_answer: str, ground_truth: str) -> float:
+    client = OpenAI()
     prompt = f"""You are an objective evaluator. Score the predicted answer against the ground truth.
 
 Question: {question}
