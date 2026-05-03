@@ -1,0 +1,61 @@
+{
+    "documents": [
+      {
+        "id": "doc_001",
+        "title": "Medicare Basics",
+        "content": "Medicare is Australia's universal health insurance scheme. It provides Australian residents with access to a wide range of medical services at low or no cost. Medicare is funded through the Medicare Levy, which is 2% of taxable income for most taxpayers."
+      },
+      {
+        "id": "doc_002",
+        "title": "PBS Overview",
+        "content": "The Pharmaceutical Benefits Scheme (PBS) is an Australian Government program that provides subsidised prescription drugs to residents. Under the PBS, the government pays the majority of the cost of medicines listed on the PBS Schedule, with patients paying a co-payment."
+      },
+      {
+        "id": "doc_003",
+        "title": "Medicare Card Eligibility",
+        "content": "To be eligible for a Medicare card, you must be an Australian citizen, a permanent resident, or a New Zealand citizen living in Australia. Temporary visa holders are generally not eligible unless their country has a Reciprocal Health Care Agreement with Australia."
+      },
+      {
+        "id": "doc_004",
+        "title": "PBS Co-payment 2024",
+        "content": "In 2024, the PBS co-payment for general patients is $31.60 per prescription. Concession card holders pay $7.70 per prescription. Once a patient reaches the PBS Safety Net threshold, they pay reduced co-payments for the remainder of the calendar year."
+      },
+      {
+        "id": "doc_005",
+        "title": "Bulk Billing",
+        "content": "Bulk billing is when a doctor accepts the Medicare benefit as full payment for a service, meaning the patient pays nothing. Not all doctors bulk bill, and bulk billing rates vary across Australia. GPs are encouraged but not required to bulk bill."
+      }
+    ],
+    "questions": [
+      {
+        "id": "q_001",
+        "question": "What is the Medicare Levy rate in Australia?",
+        "ground_truth": "The Medicare Levy is 2% of taxable income for most taxpayers.",
+        "document_id": "doc_001"
+      },
+      {
+        "id": "q_002",
+        "question": "How much do general patients pay per PBS prescription in 2024?",
+        "ground_truth": "General patients pay $31.60 per prescription under the PBS in 2024.",
+        "document_id": "doc_004"
+      },
+      {
+        "id": "q_003",
+        "question": "Are temporary visa holders eligible for Medicare?",
+        "ground_truth": "Temporary visa holders are generally not eligible for Medicare unless their country has a Reciprocal Health Care Agreement with Australia.",
+        "document_id": "doc_003"
+      },
+      {
+        "id": "q_004",
+        "question": "What is bulk billing?",
+        "ground_truth": "Bulk billing is when a doctor accepts the Medicare benefit as full payment, meaning the patient pays nothing out of pocket.",
+        "document_id": "doc_005"
+      },
+      {
+        "id": "q_005",
+        "question": "What does PBS stand for and what does it do?",
+        "ground_truth": "PBS stands for Pharmaceutical Benefits Scheme. It is an Australian Government program that subsidises prescription medicines for residents.",
+        "document_id": "doc_002"
+      }
+    ]
+  }

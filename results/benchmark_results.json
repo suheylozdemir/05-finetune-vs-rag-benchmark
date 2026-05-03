@@ -1,0 +1,96 @@
+{
+  "rag": [
+    {
+      "question_id": "q_001",
+      "question": "What is the Medicare Levy rate in Australia?",
+      "predicted": "The Medicare Levy rate in Australia is 2% of taxable income for most taxpayers.",
+      "ground_truth": "The Medicare Levy is 2% of taxable income for most taxpayers.",
+      "accuracy": 1.0,
+      "latency": 4.212,
+      "cost": 0.0
+    },
+    {
+      "question_id": "q_002",
+      "question": "How much do general patients pay per PBS prescription in 2024?",
+      "predicted": "General patients pay $31.60 per PBS prescription in 2024.",
+      "ground_truth": "General patients pay $31.60 per prescription under the PBS in 2024.",
+      "accuracy": 1.0,
+      "latency": 3.793,
+      "cost": 0.0
+    },
+    {
+      "question_id": "q_003",
+      "question": "Are temporary visa holders eligible for Medicare?",
+      "predicted": "Temporary visa holders are generally not eligible for Medicare unless their country has a Reciprocal Health Care Agreement with Australia.",
+      "ground_truth": "Temporary visa holders are generally not eligible for Medicare unless their country has a Reciprocal Health Care Agreement with Australia.",
+      "accuracy": 1.0,
+      "latency": 4.984,
+      "cost": 0.0
+    },
+    {
+      "question_id": "q_004",
+      "question": "What is bulk billing?",
+      "predicted": "Bulk billing is when a doctor accepts the Medicare benefit as full payment for a service, so the patient pays nothing.",
+      "ground_truth": "Bulk billing is when a doctor accepts the Medicare benefit as full payment, meaning the patient pays nothing out of pocket.",
+      "accuracy": 1.0,
+      "latency": 3.93,
+      "cost": 0.0
+    },
+    {
+      "question_id": "q_005",
+      "question": "What does PBS stand for and what does it do?",
+      "predicted": "PBS stands for the Pharmaceutical Benefits Scheme. It is an Australian Government program that provides subsidised prescription drugs to residents, with the government covering most of the medicine cost and patients paying a co-payment.",
+      "ground_truth": "PBS stands for Pharmaceutical Benefits Scheme. It is an Australian Government program that subsidises prescription medicines for residents.",
+      "accuracy": 1.0,
+      "latency": 5.553,
+      "cost": 0.0
+    }
+  ],
+  "finetune": [
+    {
+      "question_id": "q_001",
+      "question": "What is the Medicare Levy rate in Australia?",
+      "predicted": "The Medicare Levy rate in Australia is 2% of an individual's taxable income.",
+      "ground_truth": "The Medicare Levy is 2% of taxable income for most taxpayers.",
+      "accuracy": 1.0,
+      "latency": 1.051,
+      "cost": 0.0
+    },
+    {
+      "question_id": "q_002",
+      "question": "How much do general patients pay per PBS prescription in 2024?",
+      "predicted": "In 2024, general patients in Australia pay up to $32.50 per PBS prescription.",
+      "ground_truth": "General patients pay $31.60 per prescription under the PBS in 2024.",
+      "accuracy": 0.5,
+      "latency": 0.649,
+      "cost": 0.0
+    },
+    {
+      "question_id": "q_003",
+      "question": "Are temporary visa holders eligible for Medicare?",
+      "predicted": "Temporary visa holders are generally not eligible for Medicare, as Medicare is primarily available to Australian citizens, permanent residents, and certain visa holders with reciprocal health care agreements. However, some temporary visa holders from countries with such agreements (e.g., the UK, New Zealand, Sweden) may access limited Medicare benefits. Most temporary visa holders need private health insurance or pay for medical services themselves.",
+      "ground_truth": "Temporary visa holders are generally not eligible for Medicare unless their country has a Reciprocal Health Care Agreement with Australia.",
+      "accuracy": 1.0,
+      "latency": 1.863,
+      "cost": 0.0
+    },
+    {
+      "question_id": "q_004",
+      "question": "What is bulk billing?",
+      "predicted": "Bulk billing is a payment option under the Australian Medicare system where a healthcare provider bills Medicare directly for the cost of a service, accepting the Medicare benefit as full payment. This means the patient does not pay any out-of-pocket fees for that service.",
+      "ground_truth": "Bulk billing is when a doctor accepts the Medicare benefit as full payment, meaning the patient pays nothing out of pocket.",
+      "accuracy": 1.0,
+      "latency": 1.075,
+      "cost": 0.0
+    },
+    {
+      "question_id": "q_005",
+      "question": "What does PBS stand for and what does it do?",
+      "predicted": "PBS stands for the Pharmaceutical Benefits Scheme. It is an Australian government program that subsidises the cost of prescription medicines to make them more affordable for all Australian residents. Through the PBS, patients pay a reduced co-payment for listed medicines, while the government covers the remaining cost.",
+      "ground_truth": "PBS stands for Pharmaceutical Benefits Scheme. It is an Australian Government program that subsidises prescription medicines for residents.",
+      "accuracy": 1.0,
+      "latency": 1.664,
+      "cost": 0.0
+    }
+  ]
+}
